@@ -1,0 +1,7 @@
+import os
+from dotenv import load_dotenv
+load_dotenv()
+import os
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+GROQ_KEY  = os.getenv("GROQ_KEY")
